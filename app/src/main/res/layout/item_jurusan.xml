@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp">
+    <TextView
+        android:id="@+id/kode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Kode Jurusan"
+        android:paddingLeft="20dp"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/tvKode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kode"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:text="aaaa"/>
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Jurusan"
+        android:paddingLeft="20dp"
+        android:padding="5dp"
+        android:layout_below="@id/tvKode"
+        />
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama"
+        android:textSize="20dp"
+        android:paddingLeft="20dp"
+        android:text="aaaa"/>
+</RelativeLayout>
